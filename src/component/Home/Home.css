@@ -1,0 +1,43 @@
+.home-container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  background-color: rgba(232, 203, 208, 0.146);
+}
+
+.home-container h2 {
+  padding: 5px;
+  padding-top: 16px;
+}
+
+.right-home-icon {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 350px;
+  gap: 10px;
+  padding-top: 16px;
+}
+.right-home-icon button {
+  height: 35px;
+  width: 140px;
+}
+
+.right-home-icon .customize {
+  color: black;
+  background-color: white;
+  border: 2px solid rgba(128, 128, 128, 0.361);
+}
+
+.right-home-icon .export {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.right-home-icon .search {
+  font-size: 20px;
+  margin-right: 8px;
+  margin-top: 8px;
+}

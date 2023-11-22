@@ -1,0 +1,113 @@
+.customer {
+  padding-left: 150px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.customer .card {
+  margin: 10px 20px 20px 180px;
+  height: 130px;
+  padding: 8px;
+  background-color: rgba(128, 128, 128, 0.043);
+}
+
+.customer .upper-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.customer .upper-section .upper-left {
+  display: flex;
+  gap: 5px;
+}
+
+.customer .upper-section .upper-left p {
+  padding: 5px;
+  margin-left: 5px;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-weight: 600;
+}
+.customer .lower-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.customer .lower-section .lower-left-section {
+  display: flex;
+  padding: 0px;
+  padding-right: 0;
+  border: 2px solid rgba(128, 128, 128, 0.358);
+  border-radius: 10px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.customer .lower-section .lower-left-section p {
+  border-right: 2px solid rgba(128, 128, 128, 0.358);
+  height: 100%;
+
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0;
+}
+
+.customer .lower-section .lower-left-section p:first-child {
+  color: white;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.customer .lower-section .lower-left-section p:last-child {
+  border-right: none;
+}
+
+.customer .upper-section .upper-right-section button {
+  margin-right: 5px;
+}
+.customer .upper-section .upper-right-section .cloud {
+  color: black;
+  background-color: white;
+  border: 2px solid rgba(128, 128, 128, 0.358);
+}
+
+.customer .upper-section .upper-right-section .customer-btn {
+  color: white;
+  background-color: black;
+}
+
+.customer .lower-section .lower-rigth-section {
+  display: flex;
+}
+
+.search-input {
+  padding-left: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-input::placeholder {
+  margin-left: 20px;
+}
+
+.search-icon {
+  position: absolute;
+  margin: 8px;
+}
+
+.filter-btn {
+  color: black;
+  background-color: white;
+  border: 2px solid rgba(128, 128, 128, 0.283);
+  height: 30px;
+  padding: 5px;
+  margin-left: 5px;
+}

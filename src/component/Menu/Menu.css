@@ -1,0 +1,141 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.menu .icon-head {
+  display: flex;
+  font-size: 28px;
+  gap: 10px;
+
+  color: white;
+}
+.menu .icon-head h3 {
+  border: 1px solid;
+  padding: 6px;
+  padding-left: 7px;
+  padding-right: 8px;
+  color: black;
+  background-color: white;
+
+  border-radius: 100%;
+}
+
+.menu .dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.menu .dashboard .dashboard-icons {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.menu .dashboard .dashboard-icons .no {
+  border: none;
+  padding: 2px;
+  width: 40px;
+  padding-left: 5px;
+  margin-left: 20px;
+  border-radius: 30px;
+  background-color: rgba(128, 128, 128, 0.336);
+}
+
+.menu .dashboard .dashboard-icons h5,
+h6 {
+  color: white;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+.menu .dashboard .dashboard-icons div {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+
+.menu .cutomers {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu .cutomers .cutomers-icons {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.menu .cutomers .cutomers-icons div {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+
+.menu .cutomers .cutomers-icons h5,
+h6 {
+  color: white;
+}
+
+.menu .reports {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu .reports .reports-icons {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.menu .reports .reports-icons div {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+
+.menu .reports .reports-icons div:hover {
+  cursor: pointer;
+}
+
+.menu .reports .reports-icons h5,
+h6 {
+  color: white;
+  cursor: pointer;
+}
+.menu .reports .reports-icons h5,
+h6:hover {
+  cursor: pointer;
+}
+
+.menu-footer {
+  margin-top: 25px;
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+
+.menu-user-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.menu-user-bar .user-bar-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-user-bar .user-bar-content small {
+  color: white;
+  font-size: 12px;
+}
